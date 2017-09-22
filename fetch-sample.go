@@ -23,7 +23,7 @@ var (
 	dup = map[string]bool{}
 
 	// Command-line flags
-	seed        = flag.String("seed", "https://aws.amazon.com/ko/ec2/pricing/on-demand/", "seed URL")
+	seed        = flag.String("seed", "http://golang.org", "seed URL")
 	cancelAfter = flag.Duration("cancelafter", 0, "automatically cancel the fetchbot after a given time")
 	cancelAtURL = flag.String("cancelat", "", "automatically cancel the fetchbot at a given URL")
 	stopAfter   = flag.Duration("stopafter", 0, "automatically stop the fetchbot after a given time")

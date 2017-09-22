@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64579caa-38da-4688-8512-35faa5e2b42d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command-line-flags.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/funcexample.go" afterPath="$PROJECT_DIR$/func-example.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json-encoding.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/embeddedFields.go" afterPath="$PROJECT_DIR$/embeddedFields.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lencheck.go" afterPath="$PROJECT_DIR$/lencheck.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/panicSample.go" afterPath="$PROJECT_DIR$/panicSample.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pointerReciever.go" afterPath="$PROJECT_DIR$/pointerReciever.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/receiverTest.go" afterPath="$PROJECT_DIR$/receiverTest.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runTimeArgu.go" afterPath="$PROJECT_DIR$/runTimeArgu.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliceEx.go" afterPath="$PROJECT_DIR$/sliceEx.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler-sample.go" afterPath="$PROJECT_DIR$/crawler-sample.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fetch-sample.go" afterPath="$PROJECT_DIR$/fetch-sample.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="embeddedFields.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/embeddedFields.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sliceEx.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sliceEx.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fetch-sample.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fetch-sample.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fetch-sample.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="338">
+              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding>
                 <element signature="e#14#186#0" expanded="true" />
               </folding>
@@ -113,12 +97,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crawler-sample.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="crawler-sample.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawler-sample.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="77">
+              <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+              <folding>
+                <element signature="e#14#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json-encoding.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-encoding.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +143,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ServeMux</find>
+      <find>m4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,6 +163,7 @@
         <option value="$PROJECT_DIR$/flagExample.go" />
         <option value="$PROJECT_DIR$/command-line-flags.go" />
         <option value="$PROJECT_DIR$/fetch-sample.go" />
+        <option value="$PROJECT_DIR$/json-encoding.go" />
         <option value="$PROJECT_DIR$/crawler-sample.go" />
       </list>
     </option>
@@ -231,19 +231,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run fetch-sample.go">
-    <configuration name="Build embeddedFields.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="study" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$/embeddedFields.go" />
-      <kind value="FILE" />
-      <package value="github.com/mitrilmad/study" />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run crawler-sample.go">
     <configuration name="go run command-line-flags.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="study" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/command-line-flags.go" />
+    </configuration>
+    <configuration name="go run crawler-sample.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="study" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/crawler-sample.go" />
     </configuration>
     <configuration name="go run fetch-sample.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="study" />
@@ -255,35 +252,32 @@
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/funcexample.go" />
     </configuration>
+    <configuration name="go run json-encoding.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="study" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/json-encoding.go" />
+    </configuration>
     <configuration name="go run runTimeArgu.go" type="GoRunFileConfiguration" factoryName="Go Single File">
       <module name="study" />
       <working_directory value="$PROJECT_DIR$/" />
       <parameters value="dddddddd" />
       <filePath value="$PROJECT_DIR$/runTimeArgu.go" />
     </configuration>
-    <configuration name="gobench package 'study'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="study" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <kind value="DIRECTORY" />
-      <package value="github.com/mitrilmad/study" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run runTimeArgu.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.gobench package 'study'" />
-      <item index="2" class="java.lang.String" itemvalue="Go Application.Build embeddedFields.go and run" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run funcexample.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run command-line-flags.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run fetch-sample.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run funcexample.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run command-line-flags.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run fetch-sample.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run crawler-sample.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run json-encoding.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run fetch-sample.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run command-line-flags.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run funcexample.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Application.Build embeddedFields.go and run" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.gobench package 'study'" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run crawler-sample.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run json-encoding.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run fetch-sample.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run command-line-flags.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run funcexample.go" />
       </list>
     </recent_temporary>
   </component>
@@ -586,14 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func-example.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48260">
@@ -612,20 +598,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-sample.go">
+    <entry file="file://$PROJECT_DIR$/func-example.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        <state relative-caret-position="456">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fetch-sample.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="338">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding>
             <element signature="e#14#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-encoding.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-sample.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#164#0" expanded="true" />
           </folding>
         </state>
       </provider>
