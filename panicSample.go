@@ -1,8 +1,8 @@
 package main
 
 import (
-	"runtime"
 	"fmt"
+	"runtime"
 )
 
 func main() {
@@ -12,13 +12,13 @@ func main() {
 	count := 4
 
 	go func() {
-		for i:= 0; i< count ; i++  {
+		for i := 0; i < count; i++ {
 			done <- true
 			fmt.Println("========>", i)
 		}
 	}()
 
-	for i :=0; i< count +1 ; i++  {
+	for i := 0; i < count+1; i++ {
 		<-done
 		fmt.Println("========>")
 	}

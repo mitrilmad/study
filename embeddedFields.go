@@ -1,8 +1,8 @@
 package main
 
 type Human struct {
-	name string
-	age int
+	name   string
+	age    int
 	weight int
 }
 

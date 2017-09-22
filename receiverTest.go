@@ -1,8 +1,8 @@
 package main
 
 import (
-	"math"
 	"fmt"
+	"math"
 )
 
 type Vertex struct {
@@ -10,12 +10,12 @@ type Vertex struct {
 }
 
 func (v *Vertex) Abs() float64 {
-	return math.Sqrt(v.X * v.X + v.Y * v.Y)
+	return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
 
 func main() {
-	v := Vertex{3,4}
-	z := &Vertex{3,4}
+	v := Vertex{3, 4}
+	z := &Vertex{3, 4}
 	fmt.Println(v.Abs())
 	fmt.Println(z.Abs())
 }

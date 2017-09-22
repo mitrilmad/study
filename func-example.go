@@ -1,6 +1,6 @@
 package main
 
-func testInt() (t int){
+func testInt() (t int) {
 	t = 1
 	return
 }
@@ -19,7 +19,7 @@ func (c *Counter) testReceiver() (n int) {
 }
 
 func main() {
-	c := Counter{n : 1}
+	c := Counter{n: 1}
 	testInt()
 	testString()
 	c.testReceiver()

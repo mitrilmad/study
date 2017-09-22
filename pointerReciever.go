@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 type Man struct {
-	money  int
+	money int
 }
 
-func (man *Man) test1(money int){
+func (man *Man) test1(money int) {
 	man.money = money
 }
 
-func (man Man) test2(money int){
+func (man Man) test2(money int) {
 	man.money = money
 }
 
